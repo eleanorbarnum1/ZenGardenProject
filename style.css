@@ -10,8 +10,7 @@ html {
 body {
   font-family: "font-family: 'Poppins', sans-serif";
   font-size: 85%;
-  color: black;
-  background-color: #9D9849;
   margin: 0;
   padding: 1em;
+  background-image: url("nightsky.jpg");
 }/*# sourceMappingURL=style.css.map */

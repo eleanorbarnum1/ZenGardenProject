@@ -57,6 +57,10 @@ a:hover {
   border-color: #b0916e;
 }
 
+body {
+  background-color: red;
+}
+
 * {
   box-sizing: border-box;
 }
