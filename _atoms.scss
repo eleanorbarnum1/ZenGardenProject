@@ -1,5 +1,6 @@
 @use 'variables' as *;
-$LBP-body: "font-family: 'Poppins', sans-serif";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+$LBP-body: 'Poppins', sans-serif;
 
 // mixins to take care of repeated patterns.
 @mixin set-font($size: 1em, $line-height: normal, $font: $LBP-body) {
@@ -24,7 +25,11 @@ $LBP-body: "font-family: 'Poppins', sans-serif";
   margin-top: 1em;
   padding-top: 1.5em;
 }
+
 // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
+body
+
+
 h2,
 h3,
 h4 {
@@ -77,6 +82,3 @@ a:hover {
   border-color: $accent1;
 }
 
-body{
-  
-}
