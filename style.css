@@ -20,7 +20,7 @@ body {
   font-size: 85%;
   width: 100%;
   background-repeat: no-repeat;
-  background-image: url("images/layoutitems/rocketTRANSopt.png");
+  background-image: url("images/layoutitems/rocketcropped.png");
   background-size: 80%;
   position: relative;
 }
@@ -35,8 +35,8 @@ body {
 .page-wrapper {
   position: relative;
   background-repeat: no-repeat;
-  background-image: url("images/layoutitems/paper.png");
   background-position: center;
+  padding-top: 1000px;
 }
 
 .intro, .explanation, .main supporting, .participation, .benefits, .requirements {
