@@ -35,7 +35,8 @@ body {
 .page-wrapper {
   position: relative;
   background-repeat: no-repeat;
-  background-position: center;
+  background-image: url("images/layoutitems/rocketcropped.png"), url("images/layoutitems/paper.png");
+  background-position: center, center;
   padding-top: 1000px;
 }
 
