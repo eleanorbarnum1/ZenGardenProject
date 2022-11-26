@@ -4,12 +4,12 @@
 }
 
 html {
-  background-image: url("images/biggersky.jpg");
+  background: url("images/moon-texture.png"), url("images/biggersky.jpg");
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   margin: auto;
-  position: relative;
+  position: absolute, relative;
 }
 
 p {
@@ -20,10 +20,10 @@ body {
   font-size: 85%;
   width: 100%;
   background-repeat: no-repeat;
-  background-size: 1000px;
-  background-image: url("images/layoutitems/combined.png");
-  position: relative;
-  background-position: center;
+  background-size: 1000px, 1000px, 2000px;
+  background-image: url("images/layoutitems/combined.png"), url("images/earth.png"), url("images/jek.png");
+  position: relative, absolute;
+  background-position: center, bottom, bottom;
   padding-top: 1050px;
 }
 
