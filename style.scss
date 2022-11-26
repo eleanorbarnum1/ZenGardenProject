@@ -18,20 +18,22 @@ html {
 }
 p{
   font-family: 'Poppins', sans-serif;
+  
 }
 
 body {
   font-size: 85%;
   // padding: 10%;
   width:100%;
-
-   background-repeat: no-repeat; 
+  background-repeat: no-repeat; 
   // background-image:url("images/layoutitems/paper.png");
-  background-image:url("images/layoutitems/rocketcropped.png");
-  background-size:80%;
+  //background-image:url("images/layoutitems/rocketcropped.png");
+  background-size:1000px;
   // margin:10%;
- 
+  background-image:url("images/layoutitems/combined.png");
   position: relative; 
+  background-position:center;
+  padding-top:1050px;
   
 }
 .page-wrapper a{
@@ -43,9 +45,11 @@ body {
 .page-wrapper{
  position: relative;
  background-repeat: no-repeat; 
- background-image:url("images/layoutitems/rocketcropped.png"), url("images/layoutitems/paper.png");
- background-position:center, center;
- padding-top:1000px;
+ //backgroundimage:url("images/layoutitems/combined.png");//, url("images/layoutitems/paper.png");
+ //ackground-position:center;
+ //padding-top;
+ width:80%;
+ padding-left:20%;
 }
 
 .intro, .explanation, .main supporting, .participation, .benefits, .requirements{
