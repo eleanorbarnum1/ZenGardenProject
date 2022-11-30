@@ -27,11 +27,12 @@ body {
   font-size: 85%;
   width: 100%;
   background-repeat: no-repeat;
-  background-size: 1000px, 1000px, 2000px;
-  background-image: url("images/layoutitems/combined2.png"), url("images/earth.png");
+  background-size: 1000px, 200px, 1000px;
+  background-image: url("images/layoutitems/combined2.png"), url("images/jekfinal.png"), url("images/earth.png");
   position: relative, absolute;
-  background-position: center, bottom, bottom;
+  background-position: center, right bottom, bottom;
   padding-top: 1050px;
+  padding-bottom: 20px;
 }
 
 .page-wrapper a {

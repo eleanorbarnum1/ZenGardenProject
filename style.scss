@@ -32,12 +32,13 @@ body {
   background-repeat: no-repeat; 
   // background-image:url("images/layoutitems/paper.png");
   //background-image:url("images/layoutitems/rocketcropped.png");
-  background-size:1000px, 1000px, 2000px;
+  background-size:1000px,200px,1000px, ;
   // margin:10%;
-  background-image:url("images/layoutitems/combined2.png"),url("images/earth.png");//, url("images/jek.png");
+  background-image:url("images/layoutitems/combined2.png"),url("images/jekfinal.png"),url("images/earth.png"),;//, url("images/jek.png");
   position: relative, absolute; 
-  background-position:center, bottom, bottom;
+  background-position:center, right bottom,bottom,;
   padding-top:1050px;
+  padding-bottom:20px;
 
   
   
