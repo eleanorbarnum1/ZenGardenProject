@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -10,10 +11,16 @@ html {
   height: 100%;
   margin: auto;
   position: absolute, relative;
+  background-color: #160e0c;
 }
 
 p {
   font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  font-family: "Jua", sans-serif;
+  font-size: 125%;
 }
 
 body {
@@ -21,7 +28,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   background-size: 1000px, 1000px, 2000px;
-  background-image: url("images/layoutitems/combined.png"), url("images/earth.png"), url("images/jek.png");
+  background-image: url("images/layoutitems/combined2.png"), url("images/earth.png");
   position: relative, absolute;
   background-position: center, bottom, bottom;
   padding-top: 1050px;
