@@ -59,16 +59,23 @@ footer {
   padding: 20%;
   padding-top: 50px;
   text-align: center;
+  color: black;
+}
+
+.wrapper li a {
+  color: white;
 }
 
 .wrapper ul {
   list-style-type: none;
+  border: black solid;
+  color: white;
+  background-color: black;
 }
 
 .design-selection {
   grid-column: 1/2;
   background-color: #26A9E1;
-  color: rgb(255, 255, 255);
   border-radius: 40%;
   height: 50px;
   width: 150px;
@@ -77,7 +84,6 @@ footer {
 .design-archives {
   grid-column: 2/3;
   background-color: #26A9E1;
-  color: rgb(255, 255, 255);
   border-radius: 40%;
   height: 50px;
   width: 150px;
@@ -86,7 +92,6 @@ footer {
 .zen-resources {
   grid-column: 3/4;
   background-color: #26A9E1;
-  color: rgb(255, 255, 255);
   border-radius: 40%;
   height: 50px;
   width: 150px;
